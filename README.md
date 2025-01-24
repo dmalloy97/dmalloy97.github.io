@@ -1,3 +1,10 @@
+flowchart TD
+A[Start] --A random number between 1-80 is 55--> B(Guess a number)
+B -->C{Evaluate}
+C -- One -->D[1-54 too low!]
+C -- Two -->E[56-80 too high!]
+c -- Three -->F[55 correct!]
+c -- Four -->G[$, *, @, #, incorrect!]
 # About Me
 ## My interests
   I love to read books, mostly romance and mystery. A plus if there's a sequel.
